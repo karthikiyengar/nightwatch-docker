@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./nightwatch.conf.js && ./node_modules/.bin/nightwatch"
+    "test": "./node_modules/.bin/nightwatch"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "selenium-download": "^2.0.10"
   },
   "dependencies": {
-    "mocha-nightwatch": "^3.2.2"
+    "mocha-nightwatch": "^3.2.2",
+    "selenium-standalone-jar": "^3.0.1"
   }
 }
