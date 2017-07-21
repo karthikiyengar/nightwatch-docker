@@ -12,6 +12,7 @@
   "devDependencies": {
     "chromedriver": "^2.30.1",
     "nightwatch": "^0.9.16",
+    "phantomjs": "^2.1.7",
     "selenium-download": "^2.0.10"
   },
   "dependencies": {

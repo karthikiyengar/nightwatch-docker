@@ -28,10 +28,12 @@ module.exports = {
         "enabled" : false,
         "path" : ""
       },
-      "desiredCapabilities": {
-        "browserName": "chrome",
-        "javascriptEnabled": true,
-        "acceptSslCerts": true
+      "desiredCapabilities" : {
+        "browserName" : "phantomjs",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "phantomjs.binary.path" : "./node_modules/.bin/phantomjs",
+        "phantomjs.cli.args" : []
       }
     },
 
