@@ -1,8 +1,12 @@
 describe('login', () => {
+  it('should open the test.assos.com page', (client) => {
+    client
+      .url('http://test.assos.com')
+      .waitForElementVisible('body', 1000)
+  })
   it('should lead to the my accounts page on login', (client) => {
     client
       .login('test.paperplane@gmail.com', '123assos')
-      .assert.title('My Account')
       .assert.visible('h2.section-title')
       .assert.containsText('h2.section-title', 'My Settings')
   })
