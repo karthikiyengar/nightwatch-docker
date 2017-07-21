@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.30.1",
+    "java-download": "^0.1.0",
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10",
+    "selenium-standalone": "^6.5.0"
+  },
+  "dependencies": {
+    "mocha-nightwatch": "^3.2.2"
+  }
+}
