@@ -1,5 +1,5 @@
 describe('login', () => {
-  it('should open the test.assos.com page', (client) => {
+  it.only('should open the test.assos.com page', (client) => {
     client
       .url('http://test.assos.com')
       .waitForElementVisible('body', 1000)

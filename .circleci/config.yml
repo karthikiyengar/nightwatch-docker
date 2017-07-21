@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: karthikiyengar/cci-assos-webstore-primary:0.0.3
+      - image: karthikiyengar/node-nightwatch
       
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
